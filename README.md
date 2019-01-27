@@ -18,3 +18,15 @@ $ rails new jwt_test --api
   gem 'devise'
   gem 'knock'
 ```
+
+Then run the bundle command to add these gems to your application
+
+```Bash
+  $ bundle install
+```
+
+3. Set up Devise
+
+```Bash
+  $ rails g devise:install
+```
